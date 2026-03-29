@@ -1,4 +1,4 @@
-### Online Parameter Estimation Algorithm for a Stochastic Volatility Model
+## Online Parameter Estimation Algorithm for a Stochastic Volatility Model
 General state space models consist of a latent Markov process $(X_t)$ and an observated process $(Y_t)$. The state space model of concern for us is in discrete time and is a Stochastic Volatility Model defined by
 
 $$ Y_t = \beta e^{X_t / 2} V_t $$
@@ -13,5 +13,5 @@ In this model, $(X_t)$ is called the volatility process and $(Y_t)$ is its expre
 Simulated Data
 ![alt text](example_input_data.png)
 
-Estimation Result
+Estimation Result for above data
 ![alt text](example_output.png)
