@@ -7,7 +7,7 @@ $$ X_{t+1} = \phi X_t + \sigma W_t $$
 
 $$ V_t, W_t \sim \mathcal N(0,1) $$
 
-In this model, $(X_t)$ is called the volatility process and $(Y_t)$ is its expression as a process of observed returns. Within online parameter estimation, we want to find the values of the parameters $\beta, \phi, \sigma$ that is generating the observed process $(Y_t)$ in an online manner. The algorithm implemented is from the scheme in [this paper](https://www.stats.ox.ac.uk/~doucet/Tadic_Doucet_particleMLE.pdf) but specialised to the above model.  
+In this model, $(X_t)$ is called the volatility process and $(Y_t)$ is its expression as a process of observed returns. With online parameter estimation, we want to find the values of the parameters $\beta, \phi, \sigma$ that is generating the observed process $(Y_t)$ in an online manner. The algorithm implemented is from the scheme in [this paper](https://www.stats.ox.ac.uk/~doucet/Tadic_Doucet_particleMLE.pdf) but specialised to the above model.  
 
 ## Example of Simulated Data and Estimation Result
 Simulated Data
